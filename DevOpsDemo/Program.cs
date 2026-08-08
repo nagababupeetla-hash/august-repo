@@ -4,7 +4,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-    return "Hello from DevOps Demo!";
+    return "Hello from DevOps Demo - CI/CD Pipeline!";
 });
 
 app.Run();
